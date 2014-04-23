@@ -91,7 +91,7 @@
   globals.require.brunch = true;
 })();
 require.register("app", function(exports, require, module) {
-var setContentHeight;
+var init, setContentHeight;
 
 setContentHeight = function() {
   console.log('hegu');
@@ -100,7 +100,13 @@ setContentHeight = function() {
   return console.log('resize');
 };
 
+init = function() {
+  return setContentHeight();
+};
+
 window.addEventListener('resize', setContentHeight);
+
+document.addEventListener('DOMContentLoaded', init);
 });
 
 ;require.register("index_static", function(exports, require, module) {
