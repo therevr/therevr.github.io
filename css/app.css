@@ -27,6 +27,9 @@ header #links li {
   float: left;
   margin-right: 20px;
 }
+header #links li:last-child {
+  margin-right: 0px;
+}
 section {
   width: 100%;
   position: relative;
@@ -198,6 +201,32 @@ section#stars .content {
   }
   #intro .text .line.sub {
     font-size: 25px;
+  }
+  .big-logo {
+    width: 200px;
+  }
+}
+@media (max-width: 400px) {
+  header #links {
+    text-align: center;
+    float: none;
+  }
+  header #links li {
+    float: none;
+    display: inline;
+  }
+  #intro .text {
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+  }
+  #intro .text .line.sub {
+    font-size: 16px;
+  }
+  .big-logo {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
 
