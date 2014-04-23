@@ -134,7 +134,7 @@ var buf = [];
 var jade_mixins = {};
 var jade_interp;
 
-buf.push("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><meta name=\"viewport\" content=\"initial-scale=1.0,user-scalable=no,maximum-scale=1\" media=\"(device-height: 568px)\"><link href=\"css/app.css\" rel=\"stylesheet\" type=\"text/css\"><link href=\"/images/favicon.png\" rel=\"icon\" type=\"image/png\"><link href=\"http://fonts.googleapis.com/css?family=Arvo:400,700,400italic\" rel=\"stylesheet\" type=\"text/css\"><title>There VR | When you're here -- you're there.</title></head><body><script src=\"js/vendor.js\"></script><script src=\"js/app.js\"></script><script>require('app');</script></body></html>");;return buf.join("");
+buf.push("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><meta name=\"viewport\" content=\"initial-scale=1.0,user-scalable=no,maximum-scale=1\" media=\"(device-height: 568px)\"><link href=\"css/app.css\" rel=\"stylesheet\" type=\"text/css\"><link href=\"/images/favicon.png\" rel=\"icon\" type=\"image/png\"><link href=\"http://fonts.googleapis.com/css?family=Arvo:400,700,400italic\" rel=\"stylesheet\" type=\"text/css\"><title>There VR | Where you can't go</title></head><body><script src=\"js/app.js\"></script><script>require('app');</script></body></html>");;return buf.join("");
 };
 if (typeof define === 'function' && define.amd) {
   define([], function() {
